@@ -1,0 +1,44 @@
+### Namespaces
+
+I think it is a collection of classes, enums, interface etc
+
+- Namespace basic
+- Using alias directive
+- Different namespaces members
+
+##### Why namespaces?
+- they are used to organize your programs 
+- They also help you provide assistance in avoiding name clashes. 
+- namespace organize types and prevent naming collisions
+
+
+
+- Using namespaces is easy, just write 
+```
+    using namespace_A;
+    using namespace_B;
+```
+- or simply go for full name like
+```
+    namespace_A.classNameA.functionNameA();
+```
+
+- you can even use aliases like:
+```
+using PATA = ProjectA.TeamA;
+using PATB = ProjectA.TeamB;
+```
+and later use PATA.classname etc
+
+
+- A namespace can contain
+1. another namespace
+2. class
+3. interface
+4. struct
+5. enum
+6. delegate
+
+
+**NB mode**
+- 

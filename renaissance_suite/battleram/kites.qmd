@@ -1,0 +1,16 @@
+### things to know
+
+- From dotnet 6(.NET 6+), we write top level statements,Behind the scenes, the compiler transforms it into essentially this:
+```
+using System;
+
+class Program
+{
+    static void Main(string[] args)
+    {
+        Console.WriteLine("Hello World");
+    }
+}
+```
+
+- by default class with no access modifier is internal
