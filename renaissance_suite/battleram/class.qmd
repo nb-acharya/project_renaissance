@@ -1,0 +1,30 @@
+### Introduction to class
+
+- what is the class
+- purpose of class constructor
+- overloading class constructor
+- understanding this keyword
+- destructors
+
+
+::: {.callout-note}
+Classes are also `data types`. Yes, we have been confused in this part for quite a long time, but not anymore.<br>
+A data type defines two things: <br>(1) what kind of data something can hold, and <br>(2) what operations can be performed on it. A class does exactly this — it's a blueprint that defines a new type, just like int, bool, or string are types.
+<br>
+(3) class is how you create custom, user-defined types in C#.
+:::
+
+
+> **Just look at my age old question:** 
+>
+> it is so difficult to think class as data type cause i thought data type were just about what kind of data is stored and since class itself uses built in data types inside it, i thought user defined data types was scam 
+
+> A "type" was never about being fundamental/atomic — it's about being a well-defined blueprint
+>
+> A data type's real definition is: a category that determines (1) what values are valid, and (2) what operations are allowed. Nothing in that definition says a type must be "simple" or "irreducible."
+
+
+:::{.callout-important}
+This maybe something I have no thought about it but it has nothing to worry about eh. Class is the data type. End of discussion, you were worried like how? but think about int and class called Point that has X and Y. Yes, in surface we could say int doesnt have any subtype but point does have it X and Y.<br>
+The language can't ship a built-in BankAccount type — it doesn't know your business domain. So it gives you class as the tool to make your own. That's not fake — that's literally the entire reason object-oriented languages exist.
+:::
